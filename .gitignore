@@ -1,2 +1,4 @@
 _site/
 .sass-cache/
+dataset
+.DS_Store
