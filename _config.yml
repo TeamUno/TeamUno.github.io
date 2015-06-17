@@ -1,6 +1,5 @@
 # Dependencies
 markdown:            redcarpet
-highlighter:         pygments
 
 # Permalinks
 #
@@ -19,7 +18,7 @@ paginate:            5
 # About/contact
 author:
   name:              TeamUNO
-  url:               
+  url:
   email:
 
 # Custom vars
