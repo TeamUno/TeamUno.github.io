@@ -1,4 +1,6 @@
 # Dependencies
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
 #
@@ -7,8 +9,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               TeamUNO's blog
-tagline:             'A project from a data scientists' team'
+title:               TeamUNO blog
+tagline:             A project from a data scientists team
 description:
 url:                 teamuno.github.io
 baseurl:             /
