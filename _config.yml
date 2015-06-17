@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               delfiobradors
+tagline:             'A novice data scientist'
+description:         
+url:                 delfiobradors.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Delfí Obradors
+  url:               https://twitter.com/delfiobradors
+  email:             
+
+# Custom vars
+version:             1.0.0
