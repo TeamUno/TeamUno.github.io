@@ -9,18 +9,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               delfiobradors
-tagline:             'A novice data scientist'
-description:         
-url:                 delfiobradors.github.io
+title:               TeamUNO's blog
+tagline:             'A project from a data scientists' team'
+description:
+url:                 teamuno.github.io
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Delfí Obradors
-  url:               https://twitter.com/delfiobradors
-  email:             
+  name:              TeamUNO
+  url:               
+  email:
 
 # Custom vars
 version:             1.0.0
