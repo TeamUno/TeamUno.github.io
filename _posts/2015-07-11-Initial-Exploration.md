@@ -66,7 +66,7 @@ el importe de total de transacciones:
 <h3>214 Millones de Eur.</h3>
 
 
-y su distribución por categorias:
+y su distribución por categorías:
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_5_0.png)
 
@@ -78,7 +78,7 @@ un subset de su distribución por zipcodes:
 
 estamos en el mes de Rebajas!
 
-evolución de lo gastado por categorias por date:
+evolución de lo gastado por categorías por date:
 
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_8_1.png)
@@ -94,18 +94,18 @@ evolución del gasto en Bars&Restaurants:
 
 
     
-relación del gasto en Bars&Restaurants y el gasto en Fashion en función del dia de la semana:
+relación del gasto en Bars&Restaurants y el gasto en Fashion en función del día de la semana:
 
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_13_0.png)
 
 
-relación del gasto en Health y el gasto en food en función del dia de la semana:
+relación del gasto en Health y el gasto en food en función del día de la semana:
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_14_0.png)
 
 
-relación del gasto en fashion y el gasto en food en función del dia de la semana:
+relación del gasto en fashion y el gasto en food en función del día de la semana:
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_15_0.png)
 
@@ -121,7 +121,7 @@ headmap global, ordenando por gasto en fashion, y food:
 ![png](/assets/2015-07-11-Initial-Exploration/output_22_1.png)
 
 
-despues de este analysis inicial, vemos que hay zipcodes como Vic, Figueres que tienen una distribución más uniforme de gasto en casi todas las categorias, zipcodes con todos los servicios, mientras que otros tienen una concentración alta de un determinado servicio.
+después de este Analysis inicial, vemos que hay zipcodes como Vic, Figueres que tienen una distribución más uniforme de gasto en casi todas las categorías, zipcodes con todos los servicios, mientras que otros tienen una concentración alta de un determinado servicio.
 
 utilizamos KMeans para ver diferentes clusters de zipcodes, K=3, K=10, K=20,
 
