@@ -1,2 +1,5 @@
 # TeamUno.github.io
-# prueba Diego rama feature blog
+#prueba de Git Delfi
+=======
+# TeamUNO's blog
+>>>>>>> master

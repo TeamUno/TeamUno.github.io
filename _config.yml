@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               TeamUNO blog
+tagline:             A project from a data scientists team
+description:
+url:                 teamuno.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              TeamUNO
+  url:
+  email:
+
+# Custom vars
+version:             1.0.0
