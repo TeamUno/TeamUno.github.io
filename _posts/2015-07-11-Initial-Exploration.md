@@ -115,13 +115,13 @@ relación del gasto en Bars&Restaurants, fashion y  en food en función del zipc
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_21_1.png)
 
-headmap global:
+headmap global, ordenando por gasto en fashion, y food:
 
 
 ![png](/assets/2015-07-11-Initial-Exploration/output_22_1.png)
 
 
-despues de este analysis inicial, vemos que hay zipcodes como Vic, Figueres que tienen una distribución más uniforme de gasto en casi todas las categorias, zipcodes con todos los servicios.
+despues de este analysis inicial, vemos que hay zipcodes como Vic, Figueres que tienen una distribución más uniforme de gasto en casi todas las categorias, zipcodes con todos los servicios, mientras que otros tienen una concentración alta de un determinado servicio.
 
 utilizamos KMeans para ver diferentes clusters de zipcodes, K=3, K=10, K=20,
 
