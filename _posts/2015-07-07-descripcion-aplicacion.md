@@ -4,7 +4,7 @@ title: Descipción de la aplicación
 ---
 Empezamos el proyecto con la idea de dar un significado a los datos que nos había proporcionado BBVA.
 
-Estos datos consistían en la información agregada de transacciones realizadas en Catalunya con tarjetas BBVA o en TPV’s BBVA, que comprenden una muestra del 15% del total de las transacciones que se realizan en total.
+Estos datos consistían en la información agregada de transacciones realizadas en Catalunya con tarjetas BBVA o en TPV’s BBVA, que comprenden una muestra del 30% del total de las transacciones que se realizan en total.
 
 Surgieron varias ideas sobre las que se podía hacer algo que resultara útil para el usuario final, y vimos que teníamos mucha información en los datos para saber dónde se dirigía la gente de cierto tipo cuando iban a realizar un gasto en alguna categoría en concreto.
 
@@ -14,15 +14,25 @@ Así que decidimos hacer una aplicación de recomendación de restaurantes en fu
 
 Con los datos que nos proporciona el usuario y sabiendo las transacciones que realizan las personas similares, somos capaces de recomendar un código postal donde suele dirigirse la gente según el día de la semana en que nos encontremos.
 
-Una vez recomendados los mejores CP’s donde ir, usaremos una base de datos donde aparecen los restaurantes de cada código postal, ordenados por rating y por nivel de gasto, que será un campo que el usuario también podrá rellenar para afinar más la búsqueda.
+Aquí podemos ver la forma en la que se piden los datos del usuario en la aplicación:
 
-La base de datos de restaurantes que hemos utilizado es Foursquare, ya que su API permitía obtener los datos de restaurantes de forma relativamente sencilla y la información encontrada es bastante completa para la aplicación que queremos realizar.
+![Search_tab](../images/diego/App_search.png)
 
-Así, la pregunta que queremos responder a través de los datos es:
+Cuando el usuario pulsa **Recommend me** aparece la pestaña `Map`, donde se muestran los códigos postales recomendados, coloreados según importancia. En azul oscuro se marcan los más recomendados y el color va pasando a vainilla para los menos recomendados, hasta la falta de color que significa una relevancia mínima. Podemos ver un ejemplo en la siguiente imagen:
 
-"A qué códigos postales de Barcelona se dirige una persona con un perfil determinado de edad, género en un día de la semana en concreto?"
+![Map_tab](../images/diego/App_map.png)
 
-Los datos que tenemos son tan sólo de un mes, por lo que deberemos asumir que lo que se refleja en dicho mes es lo que ocurre durante el resto del año.
+Una vez recomendados los mejores CP’s donde ir, usaremos una base de datos donde aparecen los restaurantes de cada código postal, ordenados por rating y por nivel de gasto, que es uno de los campos que el usuario también ha podido rellenar para afinar más la búsqueda.
+
+La base de datos de restaurantes que hemos utilizado proviene de un scrapping contra la web [BCNrestaurantes](http://bcnrestaurantes.com), que contiene 1283 restaurantes en Barcelona. Aunque también se tienen los datos de Foursquare y de Google Places, que fueron los primeros en obtenerse ya que sus API permitían obtener los datos de forma relativamente sencilla, hemos visto que la información encontrada en BCNrestaurantes es bastante más completa para la aplicación que queremos realizar.
+
+En la aplicación, una vez seleccionado por el usuario el CP que le parezca, éste se amplía mostrando los restaurantes que la base de datos contiene para ese CP. En rojo se muestran aquellos con el rango de precio igual al que ha introducido el usuario, mientras que en gris se enseñan todos los demás. Los mejores del CP se muestran con un tamaño mayor, como se puede ver en esta imagen:
+
+![Map_tab](../images/diego/App_restaurants.png)
+
+En resumen, la pregunta que queremos responder a través de los datos es doble:
+
+"¿A qué códigos postales de Barcelona se dirige una persona con un perfil determinado de edad y género en un día de la semana concreto? ¿Cuáles son los mejores restaurantes para el rango de precio que busca el usuario?"
 
 Una vez respondida esta pregunta, tendremos los CP’s con mayor actividad para el perfil seleccionado, y usaremos la base de datos extraida de Foursquare para responder “Cuáles son los mejores restaurentes en la zona dentro de un rango de precios?"
 
