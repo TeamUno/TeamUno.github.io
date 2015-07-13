@@ -12,7 +12,7 @@
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="https://github.com/TeamUno/project">GitHub Project</a>
 
-    {% for post in site.posts limit: 10 %}
+    {% for post in site.posts reversed limit: 10 %}
 
     <div class="sidebar-nav-item">
       <div class="span2">
