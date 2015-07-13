@@ -26,9 +26,9 @@
   <nav id="nav">
     <ul>
       <li><a href="http://3i3.es:3333">Where Locals Go App</a></li>
-      <li><a href="#one">Analysis</a></li>
-      <li><a href="https://github.com/TeamUno/project">GitHubProject</a></li>
       <li><a href="#blog">Blog Posts</a></li>
+      <li><a href="#two">About us</a></li>
+      <li><a href="https://github.com/TeamUno/project">GitHubProject</a></li>
     </ul>
   </nav>
 
@@ -40,7 +40,10 @@
     <header>
       <h2>Where people from 25 to 34 years go to eat in Barcelona?</h2>
     </header>
-    <p>Welcome to the <strong>Recomender for Restaurants in Barcelona </strong> it take into acount your preferences to give you the best restaruant choices</p>
+    <p>Welcome to the <strong>Recommender for Restaurants in Barcelona </strong> it take into account your preferences to give you the best restaurant choices</p>
+    <a href="http://3i3.es:3333">
+      <h3>Try it, here!</h3>
+    </a>
     <footer>
       <a href="#one" class="button style2 down">More</a>
     </footer>
@@ -51,11 +54,21 @@
 <section id="one" class="main style2 right dark fullscreen">
   <div class="content box style2">
     <header>
-      <h2>What I Do</h2>
+      <h2>Barcelona Restaurants Recommender</h2>
     </header>
-    <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-      Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-      id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+    <p>We use data from BBVA, to infer people preferences, and recommend the most probable zipcodes that local people matching that preferences, tend to go</p>
+  </div>
+  <a href="#blog" class="button style2 down anchored">Next</a>
+</section>
+
+<!-- Blog -->
+<section id="blog" class="main " >
+  <div class="container content" >
+  <br/>
+  <br/>
+    {{ content }}
+  <br/>
+  <br/>
   </div>
   <a href="#two" class="button style2 down anchored">Next</a>
 </section>
@@ -64,23 +77,19 @@
 <section id="two" class="main style2 left dark fullscreen">
   <div class="content box style2">
     <header>
-      <h2>Who I Am</h2>
+      <h2>About us</h2>
     </header>
-    <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-      Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-      id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-  </div>
-  <a href="#blog" class="button style2 down anchored">Next</a>
-</section>
+    <p>
+      Xavi Jacas <a style="color:black" href="https://www.linkedin.com/in/xavierjacas">linkedin</a> - <a style="color:black"  href="http://twitter.com/existeundelta">@existeundelta</a> <br/>
+      Delfí Obradors <a style="color:black" href="https://www.linkedin.com/pub/delfi-obradors-caros/60/7b8/32a">linkedin</a> - <a style="color:black"  href="http://twitter.com/delfiobradors">@delfiobradors</a><br/>
+      David Palacios <a style="color:black" href="https://es.linkedin.com/pub/david-palacios/a/664/95">linkedin</a> - <a style="color:black"  href="http://twitter.com/daviz">@daviz</a><br/>
+      Diego Villuendas <a style="color:black" href="https://www.linkedin.com/in/diegovilluendas">linkedin</a> - <a style="color:black"  href="http://twitter.com/dieguico">@dieguico</a> <br/>
 
-<!-- Blog -->
-<section id="blog" >
-  <br/>
-  <br/>
-
-  <div class="container content">
-    {{ content }}
+      <br/>
+      Capstone project of the course <a href="http://www.ub.edu/datascience/" style="color: black">DataScienceUB</a>
+    </p>
   </div>
+
 </section>
 
 <!-- Footer -->
