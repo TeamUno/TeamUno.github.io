@@ -16,11 +16,11 @@ Con los datos que nos proporciona el usuario y sabiendo las transacciones que re
 
 Aquí podemos ver la forma en la que se piden los datos del usuario en la aplicación:
 
-![Search_tab](../images/diego/App_search.png)
+![Search_tab](/images/diego/App_search.png)
 
 Cuando el usuario pulsa **Recommend me** aparece la pestaña `Map`, donde se muestran los códigos postales recomendados, coloreados según importancia. En azul oscuro se marcan los más recomendados y el color va pasando a vainilla para los menos recomendados, hasta la falta de color que significa una relevancia mínima. Podemos ver un ejemplo en la siguiente imagen:
 
-![Map_tab](../images/diego/App_map.png)
+![Map_tab](/images/diego/App_map.png)
 
 Una vez recomendados los mejores CP’s donde ir, usaremos una base de datos donde aparecen los restaurantes de cada código postal, ordenados por rating y por nivel de gasto, que es uno de los campos que el usuario también ha podido rellenar para afinar más la búsqueda.
 
@@ -28,7 +28,12 @@ La base de datos de restaurantes que hemos utilizado proviene de un scrapping co
 
 En la aplicación, una vez seleccionado por el usuario el CP que le parezca, éste se amplía mostrando los restaurantes que la base de datos contiene para ese CP. En rojo se muestran aquellos con el rango de precio igual al que ha introducido el usuario, mientras que en gris se enseñan todos los demás. Los mejores del CP se muestran con un tamaño mayor, como se puede ver en esta imagen:
 
-![Map_tab](../images/diego/App_restaurants.png)
+![Restaurants](/images/diego/App_restaurants.png)
+
+Y si seleccionamos uno de los restaurantes podemos ver su información completa:
+
+![Restaurant_detail](/images/diego/App_restaurant_detail.png)
+
 
 En resumen, la pregunta que queremos responder a través de los datos es doble:
 
