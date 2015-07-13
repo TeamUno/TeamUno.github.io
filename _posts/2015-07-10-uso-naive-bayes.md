@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Naive Bayes como herramienta contra la agregación y la segregación de datos
+title: Naive Bayes como herramienta contra la agregación y segregación de datos
 ---
 
 Dos de los problemas más importantes que nos hemos encontrado durante el desarrollo de la palicación tienen que ver con el hecho de que los datos estuvieran agregados y que además diferentes informaciones que queríamos utilizar para la aplicación se encontraran en distintas tablas que debíamos combinar para poder realizar una recomendación más precisa.
