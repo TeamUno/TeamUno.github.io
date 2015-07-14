@@ -14,7 +14,7 @@ Empezamos analizando la tabla basic_stats, que contiene la siguiente informació
     std Standard deviation    
 
 <div>
-<table border="1" class="dataframe" >
+<table border="1" class="dataframe" style="width:800px">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -28,12 +28,6 @@ Empezamos analizando la tabla basic_stats, que contiene la siguiente informació
       <th>max</th>
       <th>min</th>
       <th>std</th>
-      <th>amount</th>
-      <th>avgpaybymerch</th>
-      <th>amountbymerch</th>
-      <th>avgReppays</th>
-      <th>weekday</th>
-      <th>day</th>
     </tr>
   </thead>
   <tbody>
@@ -48,13 +42,8 @@ Empezamos analizando la tabla basic_stats, que contiene la siguiente informació
       <td>27.28</td>
       <td>600</td>
       <td>0.1</td>
-      <td>47.253606</td>
-      <td>11184.8</td>
-      <td>5.394737</td>
-      <td>147.168421</td>
-      <td>1.012346</td>
-      <td>1</td>
-      <td>01-Tue</td>
+      <td>47.25</td>
+    
     </tr>
   </tbody>
 </table>
