@@ -24,7 +24,7 @@ p(\text{zipcode}|\text{selection}) =& p(\text{gender}|\text{zipcode})\times p(\t
 
 donde cada probabilidad está normalizada para el **conjunto** de zipcodes con la corrección de Laplace correspondiente en cada caso. Recordemos que la corrección de Laplace se basa en la asignación de una probabilidad no nula para que una hipotética probabilidad nula en el productorio anule por completo la probabilidad final. Teniendo cada $p$ un origen frecuentista ($p=\text{cuentas}/\text{total}$), la probabilidad corregida por el método de Laplace es
 \\[
-\hat{p}=\frac{cuentas+1}{total+k},
+\hat{p}=\frac{\text{cuentas}+1}{\text{total}+k},
 \\]
 siendo $k$ el número de clases posibles. 
 
